@@ -1,2 +1,2 @@
-# Selenium101_assignment
+# Automation framework for assignment
  
