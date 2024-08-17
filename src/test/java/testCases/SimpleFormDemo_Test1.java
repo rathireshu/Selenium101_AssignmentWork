@@ -19,7 +19,6 @@ public class SimpleFormDemo_Test1 extends BaseTest {
 		simpleFormDemoPage.enterMsg(welComeMsg);
 		simpleFormDemoPage.clickOnGetCheckedValBtn();
 		Assert.assertTrue(simpleFormDemoPage.getYourMessage().contains(welComeMsg));
-
 	}
 
 }
