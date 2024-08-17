@@ -21,7 +21,6 @@ public class BaseTest {
 	public void setUp() throws IOException {
 		prop = ConfigReader.getPropertyObject();
 		String browseName = prop.getProperty("browser");
-
 		if (browseName.equalsIgnoreCase("chrome")) {
 			WebDriver driver = new ChromeDriver();
 			driver.get(prop.getProperty("url"));
