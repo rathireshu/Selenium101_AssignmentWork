@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-16T20:19:56 EDT" name="Selenium101-Assignment" finished-at="2024-08-16T20:20:26 EDT" duration-ms="29829">
+    <groups>
+    </groups>
+    <test started-at="2024-08-16T20:19:56 EDT" name="TestClass1" finished-at="2024-08-16T20:20:09 EDT" duration-ms="12320">
+      <class name="testCases.SimpleFormDemo_Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.SimpleFormDemo_Test1@50b472aa]" started-at="2024-08-16T20:19:56 EDT" name="setUp" finished-at="2024-08-16T20:20:06 EDT" duration-ms="9584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:testCases.SimpleFormDemo_Test1@50b472aa]" started-at="2024-08-16T20:20:06 EDT" name="testScenario1" description="test Scenario 1" finished-at="2024-08-16T20:20:08 EDT" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SimpleFormDemo_Test1@50b472aa]" started-at="2024-08-16T20:20:08 EDT" name="tearDown" finished-at="2024-08-16T20:20:09 EDT" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SimpleFormDemo_Test1 -->
+    </test> <!-- TestClass1 -->
+    <test started-at="2024-08-16T20:20:09 EDT" name="TestClass2" finished-at="2024-08-16T20:20:17 EDT" duration-ms="7986">
+      <class name="testCases.DragNDrop_Test2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.DragNDrop_Test2@52e6fdee]" started-at="2024-08-16T20:20:09 EDT" name="setUp" finished-at="2024-08-16T20:20:14 EDT" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:testCases.DragNDrop_Test2@52e6fdee]" started-at="2024-08-16T20:20:14 EDT" name="testScenario2" description="test Scenario 2" finished-at="2024-08-16T20:20:16 EDT" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DragNDrop_Test2@52e6fdee]" started-at="2024-08-16T20:20:16 EDT" name="tearDown" finished-at="2024-08-16T20:20:17 EDT" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.DragNDrop_Test2 -->
+    </test> <!-- TestClass2 -->
+    <test started-at="2024-08-16T20:20:17 EDT" name="TestClass3" finished-at="2024-08-16T20:20:26 EDT" duration-ms="9357">
+      <class name="testCases.InputFormDemo_Test3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InputFormDemo_Test3@6dc17b83]" started-at="2024-08-16T20:20:17 EDT" name="setUp" finished-at="2024-08-16T20:20:21 EDT" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:testCases.InputFormDemo_Test3@6dc17b83]" started-at="2024-08-16T20:20:21 EDT" name="testScenario3" description="test Scenario 3" finished-at="2024-08-16T20:20:26 EDT" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.InputFormDemo_Test3@6dc17b83]" started-at="2024-08-16T20:20:26 EDT" name="tearDown" finished-at="2024-08-16T20:20:26 EDT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.InputFormDemo_Test3 -->
+    </test> <!-- TestClass3 -->
+  </suite> <!-- Selenium101-Assignment -->
+</testng-results>
