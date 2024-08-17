@@ -1,6 +1,7 @@
 package pageObjects;
 
 import java.time.Duration;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,6 +60,13 @@ public class InputFormDemo_POM {
 		return driver.getCurrentUrl();
 	}
 
+	public String getTooltipErrorMsg() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+	    String TooltipErrorMsg = (String) js.executeScript("return arguments[0].validationMessage;", nameInput);	
+	    return TooltipErrorMsg;
+	}
+	
 	public void enterCredintials(String name, String email, String password) {
 		nameInput.click();
 		nameInput.sendKeys(name);

@@ -5,8 +5,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import base.BaseTest;
 import pageObjects.DragNDrop_POM;
-import pageObjects.InputFormDemo_POM;
-import pageObjects.SimpleFormDemo_POM;
 
 public class DragNDrop_Test2 extends BaseTest {
 

@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import base.BaseTest;
-import pageObjects.InputFormDemo_POM;
 import pageObjects.SimpleFormDemo_POM;
 
 public class SimpleFormDemo_Test1 extends BaseTest {
